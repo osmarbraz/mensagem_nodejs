@@ -4,7 +4,6 @@
 - Programa cliente está no projeto "mensagem_reactjs".
 - Programa servidor cria o webservice na posta 8000.
 - Implementação do serviço utilizando REST e os métodos GET e POST.
-- A pasta src contêm os fontes do projeto.
 - Classe Mensagem possui duas operações: setMensagem e getMensagem.
 
 - Dependências:    
