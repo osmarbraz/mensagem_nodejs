@@ -3,14 +3,14 @@
     "name": "mensagem-nodejs",
     "builds": [
       {
-        "src": "index.js",
+        "src": ".//src//index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
-        "src": "/(.*)",
-        "dest": "index.js"
+        "src": ".//src//(.*)",
+        "destination": ".//src//index.js"
       }
     ]
   }
