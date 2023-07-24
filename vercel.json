@@ -1,16 +1,15 @@
 {
     "version": 2,
-    "name": "mensagem-nodejs",
     "builds": [
       {
-        "src": ".//src//index.js",
+        "src": "./src/index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
-        "src": ".//src//(.*)",
-        "dest": ".//src//index.js"
+        "src": "./src/(.*)",
+        "dest": "./src/index.js"
       }
     ]
   }
